@@ -9,6 +9,7 @@ Each file is a self-contained skill: copy it into `~/.claude/skills/<name>/SKILL
 | Skill | Trigger | What it does |
 |---|---|---|
 | [ss](skills/ss.md) | `/ss [N] [action]` | Grab the user's newest macOS screenshot(s) and act on them — describe, fix the bug shown, remix the design, generate artifacts. Visual channel into Claude. |
+| [fable-prompting](skills/fable-prompting/SKILL.md) | drafting/auditing prompts for Claude Fable 5 | Prompting patterns for Fable-class models from Anthropic's official guide — reasons + boundaries over rule lists, effort-level dial, async subagent orchestration, and a migration audit that finds `reasoning_extraction` triggers (silent Opus 4.8 fallback) in your existing skills and CLAUDE.md. |
 
 ## How to install a skill
 
